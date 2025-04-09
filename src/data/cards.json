@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Favicons (Favorite icons)",
+        "items": [
+            "In the head of the index.html => <link rel=\"shortcut icon\" href=\"assets/img/handler-icon.ico\" type=\"image/x-icon\">",
+            "The .ico file preferably 64px by 64px"
+        ]
+    },
+    {
+        "title": "Icons",
+        "items": [
+            "When you need to add icons -> \"<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>\"",
+            "https://fonts.google.com/icons",
+            "Then, for example -> \"<span class='material-icons'>thumb_up</span>\" => 👍"
+        ]
+    },
+    {
+        "title": "Greater and Less than",
+        "items": [
+            "\"<\" => &lt;",
+            "\">\" => &gt;"
+        ]
+    },
+    {
+        "title": "Local server",
+        "items": [
+            "Being at the console",
+            "If you have node.js installed => npm install -g http-server",
+            "To check if you already have it installed => http-server --version",
+            "Then from the project folder => http-server"
+        ]
+    }
+]

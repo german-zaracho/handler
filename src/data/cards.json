@@ -9,16 +9,16 @@
     {
         "title": "Icons",
         "items": [
-            "When you need to add icons -> \"<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>\"",
+            "When you need to add icons -> &lt;link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'&gt;",
             "https://fonts.google.com/icons",
-            "Then, for example -> \"<span class='material-icons'>thumb_up</span>\" => 👍"
+            "Then, for example -> &lt;span class='material-icons'&gt;thumb_up&lt;/span&gt; => 👍"
         ]
     },
     {
         "title": "Greater and Less than",
         "items": [
-            "\"<\" => &lt;",
-            "\">\" => &gt;"
+            "\"<\" => & l t ; (But without spaces)",
+            "\">\" => & g t ; (But without spaces)"
         ]
     },
     {

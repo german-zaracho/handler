@@ -2,9 +2,10 @@
     {
         "title": "Favicons (Favorite icons)",
         "items": [
-            "In the head of the index.html => <link rel=\"shortcut icon\" href=\"assets/img/handler-icon.ico\" type=\"image/x-icon\">",
+            "In the head of the index.html => &lt;link rel=\"shortcut icon\" href=\"assets/img/handler-icon.ico\" type=\"image/x-icon\"&gt;",
             "The .ico file preferably 64px by 64px"
-        ]
+        ],
+        "tags": ["basic"]
     },
     {
         "title": "Icons",
@@ -12,14 +13,16 @@
             "When you need to add icons -> &lt;link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'&gt;",
             "https://fonts.google.com/icons",
             "Then, for example -> &lt;span class='material-icons'&gt;thumb_up&lt;/span&gt; => 👍"
-        ]
+        ],
+        "tags":["basic"]
     },
     {
         "title": "Greater and Less than",
         "items": [
             "\"<\" => & l t ; (But without spaces)",
             "\">\" => & g t ; (But without spaces)"
-        ]
+        ],
+        "tags": ["basic"]
     },
     {
         "title": "Local server",
@@ -28,6 +31,118 @@
             "If you have node.js installed => npm install -g http-server",
             "To check if you already have it installed => http-server --version",
             "Then from the project folder => http-server"
-        ]
+        ],
+        "tags": ["basic", "server", "test", "terminal"]
+    },
+    {
+        "title": "Cambiar cuenta de Github para subir cosas por terminal",
+        "items": [
+            "Panel de usuario",
+            "Cuentas de usuario",
+            "Administrador de credenciales",
+            "Credenciales de windows",
+            "Github",
+            "Editar",
+            "Luego ir al vsc y verificar la cuenta y mail",
+            "git config --global user.name",
+            "git config --global user.email",
+            "Si se quiere modificar ->",
+            "git config user.name 'Otro Nombre'",
+            "git config user.email 'otra@email.com'",
+            "Para verificar que la configuracion se aplico -> git config --list"
+        ],
+        "tags": ["github", "terminal"]
+    },
+    {
+        "title": "Metodo .sort()",
+        "items": [
+            "Ordena strings en orden alfabetico, y numeros priorizando el valor de sus digitos comenzando desde el primero.",
+            "Ej.1 -> const frutas = ['banana', 'manzana', 'kiwi', 'pera'];",
+            "frutas.sort();",
+            "console.log(frutas);",
+            "Resultado: ['banana', 'kiwi', 'manzana', 'pera']",
+            "Ej.2 -> const numeros = [10, 5, 20, 1];",
+            "numeros.sort();",
+            "console.log(numeros);",
+            "Resultado: [1, 10, 20, 5]",
+            "Ej.3 -> const numeros = [10, 5, 20, 1]; ",
+            "numeros.sort((a, b) => a - b);",
+            "console.log(numeros);",
+            "Resultado: [1, 5, 10, 20]",
+            "Ej.4 -> const numeros = [56, 48, 78, 15, 23, 31, 98, 12, 25, 125, 2058];",
+            "const ordenado = numeros.sort();",
+            "console.log(ordenado);",
+            "Resultado: [12, 125, 15, 2058, 23, 25, 31, 48, 56, 78, 98]"
+        ],
+        "tags": ["js", "sort", "array", "method"]
+    },
+    {
+        "title": "Como resetear archivos en el browser",
+        "items": [
+            "Al actualizar un archivo, a veces no se ve el cambio en el browser porque tiene los archivos en network",
+            "F12 -> Network -> 🛇 -> click",
+            "Refreshear la pagina"
+        ],
+        "tags": ["browser", "network", "files"]
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
     }
 ]

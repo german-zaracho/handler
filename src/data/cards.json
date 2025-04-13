@@ -86,24 +86,47 @@
         "tags": ["browser", "network", "files"]
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Imagenes en proyectos",
+        "items": [
+            "En la carpeta public/ -> imagenes estaticas como logo, iconos, imagenes de fondo.",
+            "En la carpeta src/assets/ -> Imagenes que se van a importar en componentes o manipular con el codigo."
+        ],
+        "tags": ["basic", "images"]
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Atributo en enlaces <a> que utilizan target=\"_blank\"",
+        "items": [
+            "rel = \"noopener noreferrer\"",
+            "noopener => Impide que la nueva pestaña tenga acceso a la pestaña de origen.",
+            "noreferrer => Impide que la nueva pestaña tenga acceso a la pestaña de origen y no envía la URL de la pestaña de origen como referencia."
+        ],
+        "tags": ["basic", "html", "a", "link"]
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Subir Proyecto a repositorio",
+        "items": [
+            "Si es con react hacer el repositorio sin el readme porque lleva a conflicto al hacer el merge",
+            "git init",
+            "git add .",
+            "git commit -m \"First Commit\"",
+            "git branch -M main",
+            "git remote add origin https://github.com/mi-usuario/mi-proyecto.git",
+            "si sale error => matar a la terminal y abrir una nueva",
+            "git status",
+            "git commit --amend",
+            ":wq para guardar y salir",
+            "git rebase --continue",
+            "git push origin main"
+        ],
+        "tags": ["github", "terminal", "push", "project"]
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Para agregar variables al css",
+        "items": [
+            ":root{--nombre:0.5;}",
+            "background-color: rgb(15 23 42 / var(--nombre));"
+        ],
+        "tags": ["css", "variables"]
     },
     {
         "title": "",

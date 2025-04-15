@@ -37,7 +37,7 @@ function App() {
 
       <div className="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         {filteredCards.map((card, index) => (
-          <Card key={index} title={card.title} items={card.items} />
+          <Card key={index} title={card.title} items={card.items} tags={card.tags}/>
         ))}
       </div>
 

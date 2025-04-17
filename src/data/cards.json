@@ -5,7 +5,7 @@
             "In the head of the index.html => &lt;link rel=\"shortcut icon\" href=\"assets/img/handler-icon.ico\" type=\"image/x-icon\"&gt;",
             "The .ico file preferably 64px by 64px"
         ],
-        "tags": ["basic"]
+        "tags": ["basic", "favicon", "icon"]
     },
     {
         "title": "Icons",
@@ -14,7 +14,7 @@
             "https://fonts.google.com/icons",
             "Then, for example -> &lt;span class='material-icons'&gt;thumb_up&lt;/span&gt; => 👍"
         ],
-        "tags":["basic"]
+        "tags":["basic", "icon"]
     },
     {
         "title": "Greater and Less than",
@@ -127,6 +127,118 @@
             "background-color: rgb(15 23 42 / var(--nombre));"
         ],
         "tags": ["css", "variables"]
+    },
+    {
+        "title": "Ternario",
+        "items": [
+            "n % 2 == 0 ? 'par' : 'impar';"
+        ],
+        "tags": ["ternario", "js", "modulo", "operador" ]
+    },
+    {
+        "title": "Ejemplo de Switch",
+        "items": [
+            "switch (L) {",
+            "case 'a':",
+            "case 'A':",
+            "m += 'la primera vocal';",
+            "break;",
+            "case 'e':",
+            "case 'E':",
+            "m += 'la segunda vocal';",
+            "break;",
+            "// ...",
+            "default:",
+            "m += 'una consonante';}"
+        ],
+        "tags": ["switch", "js", "case", "default", "statement"]
+    },
+    {
+        "title": "Bucles",
+        "items": [
+            "let i = 1;",
+            "while (i < 5) {i++;}",
+            "do {//accion} while (i = 'a');",
+            "for (let i = 0; i < array.length; i++) {const element = array[i]; //acciones a repetir}",
+            "Valor de inicio, condicion de corte, incremento o decremento"
+        ],
+        "tags": ["loop", "while", "do", "for"]
+    },
+    {
+        "title": "isNaN()",
+        "items": [
+            "do {nombre = prompt('ingrese el nombre del alumno')} while (isNaN(nombre));",
+            "isNaN() verifica si lo que se le pasa es un numero o no. Si es un numero devuelve false, si no lo es, tira true",
+            "Tambien podes usar !isNaN() para que tire true si es un numero."
+        ],
+        "tags": ["isNaN()", "js", "number", "function"]
+    },
+    {
+        "title": "toLowerCase, toUpperCase, charAt, slice",
+        "items": [
+            "nombre = nombre.toLowerCase(); -> pone todo en minusculas",
+            "apellido = apellido.toUpperCase(); -> pone todo en mayusculas",
+            "nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1); -> pone la primera letra en mayuscula y el resto en minusculas"
+        ],
+        "tags": ["js", "string", "method"]
+    },
+    {
+        "title": "slice()",
+        "items": [
+            "Copia una porcion del string o array y devuelve uno nuevo.",
+            "Ej:1 -> const texto = 'javascript';",
+            "const parte = texto.slice(4);",
+            "console.log(parte); // 'script'",
+            "Ej:2 -> const otraParte = texto.slice(0, 4);",
+            "console.log(otraParte); // 'java'",
+            "Ej:3 -> const frutas = ['manzana', 'banana', 'pera', 'uva'];",
+            "const algunas = frutas.slice(1, 3);",
+            "console.log(algunas); // ['banana', 'pera']"
+        ],
+        "tags": ["js", "slice", "string", "array", "method"]
+    },
+    {
+        "title": "Call a function",
+        "items": [
+            "Ejemplo 1:",
+            "Html -> <button onclick='unaFuncion();'>click</button>",
+            "js -> function unaFuncion() {document.write('¡Hola mundo!');}",
+            "Ejemplo 2:",
+            "Html -> <button id='miBoton'>click</button>",
+            "js -> const boton = document.getElementById('miBoton');",
+            "boton.addEventListener('click', function () {document.write('¡Hola desde addEventListener!');});"
+        ],
+        "tags": ["js", "function", "onclick", "html"]
+    },
+    {
+        "title": "Propiedad Length",
+        "items": [
+            "Ej:1 -> const palabra = 'Javascript';",
+            "console.log(palabra.length); // 10",
+            "Ej: 2 -> const frutas = ['manzana', 'banana', 'pera'];",
+            "console.log(frutas.length); // 3"
+        ],
+        "tags": ["length", "js", "string", "array", "property"]
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
+    },
+    {
+        "title": "",
+        "items": [],
+        "tags": []
     },
     {
         "title": "",

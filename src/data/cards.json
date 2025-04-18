@@ -5,7 +5,11 @@
             "In the head of the index.html => &lt;link rel=\"shortcut icon\" href=\"assets/img/handler-icon.ico\" type=\"image/x-icon\"&gt;",
             "The .ico file preferably 64px by 64px"
         ],
-        "tags": ["basic", "favicon", "icon"]
+        "tags": [
+            "basic",
+            "favicon",
+            "icon"
+        ]
     },
     {
         "title": "Icons",
@@ -14,7 +18,10 @@
             "https://fonts.google.com/icons",
             "Then, for example -> &lt;span class='material-icons'&gt;thumb_up&lt;/span&gt; => 👍"
         ],
-        "tags":["basic", "icon"]
+        "tags": [
+            "basic",
+            "icon"
+        ]
     },
     {
         "title": "Greater and Less than",
@@ -22,7 +29,9 @@
             "\"<\" => & l t ; (But without spaces)",
             "\">\" => & g t ; (But without spaces)"
         ],
-        "tags": ["basic"]
+        "tags": [
+            "basic"
+        ]
     },
     {
         "title": "Local server",
@@ -32,7 +41,12 @@
             "To check if you already have it installed => http-server --version",
             "Then from the project folder => http-server"
         ],
-        "tags": ["basic", "server", "test", "terminal"]
+        "tags": [
+            "basic",
+            "server",
+            "test",
+            "terminal"
+        ]
     },
     {
         "title": "Cambiar cuenta de Github para subir cosas por terminal",
@@ -51,7 +65,10 @@
             "git config user.email 'otra@email.com'",
             "Para verificar que la configuracion se aplico -> git config --list"
         ],
-        "tags": ["github", "terminal"]
+        "tags": [
+            "github",
+            "terminal"
+        ]
     },
     {
         "title": "Metodo .sort()",
@@ -74,7 +91,12 @@
             "console.log(ordenado);",
             "Resultado: [12, 125, 15, 2058, 23, 25, 31, 48, 56, 78, 98]"
         ],
-        "tags": ["js", "sort", "array", "method"]
+        "tags": [
+            "js",
+            "sort",
+            "array",
+            "method"
+        ]
     },
     {
         "title": "Como resetear archivos en el browser",
@@ -83,7 +105,11 @@
             "F12 -> Network -> 🛇 -> click",
             "Refreshear la pagina"
         ],
-        "tags": ["browser", "network", "files"]
+        "tags": [
+            "browser",
+            "network",
+            "files"
+        ]
     },
     {
         "title": "Imagenes en proyectos",
@@ -91,7 +117,10 @@
             "En la carpeta public/ -> imagenes estaticas como logo, iconos, imagenes de fondo.",
             "En la carpeta src/assets/ -> Imagenes que se van a importar en componentes o manipular con el codigo."
         ],
-        "tags": ["basic", "images"]
+        "tags": [
+            "basic",
+            "images"
+        ]
     },
     {
         "title": "Atributo en enlaces <a> que utilizan target=\"_blank\"",
@@ -100,7 +129,12 @@
             "noopener => Impide que la nueva pestaña tenga acceso a la pestaña de origen.",
             "noreferrer => Impide que la nueva pestaña tenga acceso a la pestaña de origen y no envía la URL de la pestaña de origen como referencia."
         ],
-        "tags": ["basic", "html", "a", "link"]
+        "tags": [
+            "basic",
+            "html",
+            "a",
+            "link"
+        ]
     },
     {
         "title": "Subir Proyecto a repositorio",
@@ -118,7 +152,12 @@
             "git rebase --continue",
             "git push origin main"
         ],
-        "tags": ["github", "terminal", "push", "project"]
+        "tags": [
+            "github",
+            "terminal",
+            "push",
+            "project"
+        ]
     },
     {
         "title": "Para agregar variables al css",
@@ -126,14 +165,22 @@
             ":root{--nombre:0.5;}",
             "background-color: rgb(15 23 42 / var(--nombre));"
         ],
-        "tags": ["css", "variables"]
+        "tags": [
+            "css",
+            "variables"
+        ]
     },
     {
         "title": "Ternario",
         "items": [
             "n % 2 == 0 ? 'par' : 'impar';"
         ],
-        "tags": ["ternario", "js", "modulo", "operador" ]
+        "tags": [
+            "ternario",
+            "js",
+            "modulo",
+            "operador"
+        ]
     },
     {
         "title": "Ejemplo de Switch",
@@ -151,7 +198,13 @@
             "default:",
             "m += 'una consonante';}"
         ],
-        "tags": ["switch", "js", "case", "default", "statement"]
+        "tags": [
+            "switch",
+            "js",
+            "case",
+            "default",
+            "statement"
+        ]
     },
     {
         "title": "Bucles",
@@ -162,7 +215,12 @@
             "for (let i = 0; i < array.length; i++) {const element = array[i]; //acciones a repetir}",
             "Valor de inicio, condicion de corte, incremento o decremento"
         ],
-        "tags": ["loop", "while", "do", "for"]
+        "tags": [
+            "loop",
+            "while",
+            "do",
+            "for"
+        ]
     },
     {
         "title": "isNaN()",
@@ -171,7 +229,12 @@
             "isNaN() verifica si lo que se le pasa es un numero o no. Si es un numero devuelve false, si no lo es, tira true",
             "Tambien podes usar !isNaN() para que tire true si es un numero."
         ],
-        "tags": ["isNaN()", "js", "number", "function"]
+        "tags": [
+            "isNaN()",
+            "js",
+            "number",
+            "function"
+        ]
     },
     {
         "title": "toLowerCase, toUpperCase, charAt, slice",
@@ -180,7 +243,11 @@
             "apellido = apellido.toUpperCase(); -> pone todo en mayusculas",
             "nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1); -> pone la primera letra en mayuscula y el resto en minusculas"
         ],
-        "tags": ["js", "string", "method"]
+        "tags": [
+            "js",
+            "string",
+            "method"
+        ]
     },
     {
         "title": "slice()",
@@ -195,7 +262,13 @@
             "const algunas = frutas.slice(1, 3);",
             "console.log(algunas); // ['banana', 'pera']"
         ],
-        "tags": ["js", "slice", "string", "array", "method"]
+        "tags": [
+            "js",
+            "slice",
+            "string",
+            "array",
+            "method"
+        ]
     },
     {
         "title": "Call a function",
@@ -208,7 +281,12 @@
             "js -> const boton = document.getElementById('miBoton');",
             "boton.addEventListener('click', function () {document.write('¡Hola desde addEventListener!');});"
         ],
-        "tags": ["js", "function", "onclick", "html"]
+        "tags": [
+            "js",
+            "function",
+            "onclick",
+            "html"
+        ]
     },
     {
         "title": "Propiedad Length",
@@ -218,47 +296,153 @@
             "Ej: 2 -> const frutas = ['manzana', 'banana', 'pera'];",
             "console.log(frutas.length); // 3"
         ],
-        "tags": ["length", "js", "string", "array", "property"]
+        "tags": [
+            "length",
+            "js",
+            "string",
+            "array",
+            "property"
+        ]
+    },
+    {
+        "title": "Parametros y argumentos",
+        "items": [
+            "Parametros -> Definidos entre parentesis al momento de crear la funcion",
+            "Argumentos -> Valores que reemplazan los parametros al momento de llamar a la funcion",
+            "Ej: 1 -> ",
+            "function saludar(nombre) {console.log('Hola, ' + nombre + '!');}",
+            "saludar('Juan');",
+            "Ej: 2 ->",
+            "const UnaFuncion = function (parametro = 'valor por defecto') {console.log(parametro);}",
+            "UnaFuncion() o UnaFuncion('otro valor');"
+        ],
+        "tags": [
+            "js",
+            "function",
+            "argument",
+            "parameter",
+            "basic"
+        ]
+    },
+    {
+        "title": "Shortcuts",
+        "items": [
+            "Dividir la pantalla en ventanas -> Win + flechas"
+        ],
+        "tags": [
+            "shortcuts",
+            "windows"
+        ]
+    },
+    {
+        "title": "Arrow function",
+        "items": [
+            "Una manera de escribir una funcion mas corta",
+            "Forma tradicional -> function saludar(nombre) {return 'Hola ' + nombre;}",
+            "Con Arrow function -> const saludar = (nombre) => {return 'Hola ' + nombre;};",
+            "Cuando es solo un parametro y una sola linea -> const saludar = nombre => 'Hola ' + nombre;",
+            "Ej: con varios parametros -> const sumar = (a, b) => a + b;",
+            "Ej: uso normal -> const calcularArea = (base, altura) => { const area = (base * altura) / 2; return area;};"
+        ],
+        "tags": [
+            "function",
+            "arrow",
+            "js",
+            "basic"
+        ]
+    },
+    {
+        "title": "Arrays",
+        "items": [
+            "Version constructora -> let nombreDeArray1 = new array('cadena', 21, true, 'true');",
+            "Version literal -> let nombreDeArray2 = ['cadena', 21, true, 'abc'];",
+            "Ej: 1 -> let nombre 1 = []; nombre1[0] = 'cadena';",
+            "Ej: 2 -> let nombre2 = []; nombre2.push('cadena');",
+            "Ej: 3 -> for (let i = 0; i < materias.length; i++) {console.log(indice, materias[indice]);}",
+            "Este mostrara -> 0 'matematica', 1 'fisica', 2 'quimica', 3 'programacion'"
+        ],
+        "tags": [
+            "arrays",
+            "js",
+            "basic",
+            "push",
+            "for",
+            "loop"
+        ]
+    },
+    {
+        "title": "For in / For of",
+        "items": [
+            "For in -> recorre indices",
+            "Ej: 1 -> const persona = { nombre: 'Ana', edad: 30, ciudad: 'Buenos Aires'};",
+            "for (let clave in persona) {",
+            "console.log(clave);           // nombre, edad, ciudad",
+            "console.log(persona[clave]);  // Ana, 30, Buenos Aires}",
+            "For of -> Recorre valores",
+            "Ej: 2 -> const frutas = ['manzana', 'banana', 'pera'];",
+            "for (let fruta of frutas) {",
+            "console.log(fruta); // manzana, banana, pera}"
+        ],
+        "tags": [
+            "js",
+            "for",
+            "in",
+            "of",
+            "loop",
+            "array"
+        ]
     },
     {
         "title": "",
-        "items": [],
+        "items": [
+            "Modificar una etiqueta del DOM -> document.querySelector('.galeria').innerHTML = html;",
+            "Modificar varias etiquetas del DOM -> document.querySelectorAll('.galeria').forEach(elemento => {elemento.innerHTML = html;});",
+            ""
+        ],
         "tags": []
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Operador Rest",
+        "items": [
+            "Para agrupar multiples argumentos",
+            "Ej: 1 -> function mostrarDatos(nombre, edad, ...hobbies) {",
+            "console.log('Nombre: ', nombre);",
+            "console.log('Edad: ', edad);",
+            "console.log('Hobbies: ', hobbies);",
+            "mostrarDatos('Sofía', 28, 'leer', 'dibujar', 'bailar');}",
+            "Ej: 2 -> function sumar(...numeros) {",
+            "console.log(numeros); // [2, 4, 6]",
+            "return numeros.reduce((total, n) => total + n, 0);}",
+            "console.log(sumar(2, 4, 6)); // 12",
+            ""
+        ],
+        "tags": [
+            "js",
+            "rest",
+            "operator",
+            "function",
+            "reduce",
+            "method"
+        ]
     },
     {
-        "title": "",
-        "items": [],
-        "tags": []
-    },
-    {
-        "title": "",
-        "items": [],
-        "tags": []
-    },
-    {
-        "title": "",
-        "items": [],
-        "tags": []
-    },
-    {
-        "title": "",
-        "items": [],
-        "tags": []
-    },
-    {
-        "title": "",
-        "items": [],
-        "tags": []
-    },
-    {
-        "title": "",
-        "items": [],
-        "tags": []
+        "title": "Metodo reduce()",
+        "items": [
+            " Ej: 1 -> return array.reduce((acumulador, valorActual) => {acciones});",
+            "Ej: 2 -> const frutas = ['manzana', 'banana', 'manzana', 'pera', 'banana', 'banana'];",
+            "const contador = frutas.reduce((acc, fruta) => {",
+            "acc[fruta] = (acc[fruta] || 0) + 1;",
+            "return acc;}, {});",
+            "console.log(contador);",
+            "// { manzana: 2, banana: 3, pera: 1 }",
+            "En las {} del final va agregando acc[fruta] y si es undefined le asigna 0 y le suma 1, si ya tiene valor le agrega 1"
+        ],
+        "tags": [
+            "js",
+            "reduce",
+            "method",
+            "array"
+        ]
     },
     {
         "title": "",
